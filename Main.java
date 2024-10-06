@@ -6,15 +6,8 @@ public class Main {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        addTodoList("Belajar");
-        addTodoList("Menggambar");
-        addTodoList("Menulis");
-        addTodoList("Menyetir");
-        showTodoList();
-        removeTodoList(2);
-        System.out.println("Length todos : " + todos.length);
+        showMainMenu();
     }
-
     public static void showTodoList() {
         System.out.println("TODO LIST");
         for (int i = 0; i < todos.length; i++) {
